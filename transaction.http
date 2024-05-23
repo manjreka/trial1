@@ -1,0 +1,28 @@
+//API 1 
+
+GET http://localhost:3000/tasks/?search_q=Women
+
+
+###
+
+//API 2 
+// ***** scenario 1 *****
+GET http://localhost:3000/tasks/totalSales/?month=4
+
+// ***** scenario 2 *****
+###
+GET http://localhost:3000/tasks/toldSoldItem/?month=4
+
+// ***** scenario 3 *****
+###
+GET http://localhost:3000/tasks/totalUnsoldItems/?month=4
+
+
+//API 3 
+###
+GET http://localhost:3000/tasks/barChart/?month=4
+
+
+//API 4
+###
+GET http://localhost:3000/tasks/pieChart/?month=4
