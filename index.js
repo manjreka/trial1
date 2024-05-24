@@ -46,7 +46,7 @@ const initializeDBAndServer = async () => {
 
 initializeDBAndServer();
 
-const axios = require("axios"); /*Importing the axios library*/
+const axios = require("axios"); /*Importing the axios library using third part packages*/
 
 const fetchAndInsert = async () => {
   const response = await axios.get(
